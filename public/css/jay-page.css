@@ -1,0 +1,233 @@
+/* .jay-header-lg {
+    height: 10px;
+} */
+.jay-header {
+    height: 10px;
+    padding-top: 80px;
+    padding-bottom: 45px;
+    background: #141E30;
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+/* *, ::after, ::before {
+    box-sizing: border-box;
+} */
+
+.jay-title{
+    text-align: center; 
+    color:white; 
+    font-weight:bold;
+}
+
+.alert{
+    margin-bottom: 0px !important;
+}
+
+.required{
+    color: red;
+}
+
+/* p{
+    font-size: smaller !important;
+} */
+
+ text{
+  border: 1px solid white;
+  box-shadow: 1px 1px 3px grey !important;
+  /* border-radius: 4px; */
+}
+textarea{
+ /* border: 2px solid white !important; */
+ box-shadow: 1px 1px 3px grey !important;
+}
+
+select{
+    border: 3px solid white;
+    box-shadow: 1px 1px 3px grey !important;
+   }
+
+/* input[type=text] {
+    border: 2px solid #f96332;
+    box-shadow: 20px 20px 50px grey;
+    
+  } */
+
+  .row-centered {
+    text-align:center;
+    }
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+    /* background-color: #ccc; */
+    /* border: 1px solid #ddd; */
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.jaylabel{
+    color: #9A9A9A;
+}
+ .jayformbutton{
+     color: white !important;
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%) !important;
+ }
+ .jayformbutton:hover{
+     color: rgba(252, 123, 77, 0.979) !important;
+ }
+
+ .table>thead>tr>th {
+    font-weight: bold !important;
+    font-size: medium !important;
+    color: #141E30 !important;
+}
+
+.jayDropdownButton{
+    background-color: transparent !important ;
+    color: rgba(7, 7, 82, 0.836) !important;
+}
+
+.jayDropdownButton:hover{
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%) !important;
+    color: #ffffff !important;
+}
+
+/* Add a black background color to the top navigation */
+.jay-topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.jay-topnav a {
+  color: #9A9A9A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.jay-topnav a:hover {
+  /* background-color: #ddd; */
+  text-decoration: none;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+/* .jay-topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+} */
+
+/* Right-aligned section inside the top navigation */
+.jay-topnav-right {
+  float: right;
+}
+
+td {
+    text-align: center !important;
+}
+
+th {
+    text-align: center !important;
+}
+
+.jay-input-field{
+    border-radius: 30px;
+    /* border-color:#cfcdcd; */
+    border: solid 0.5px #cfcdcd;
+}
+
+.jay-input-field:focus{
+    border-radius: 30px;
+    /* border-color:#cfcdcd; */
+    border: solid 1px #f78c12 !important;
+}
+
+
+input[type='search']{
+    outline: none;
+}
+
+.inf-content{
+    border:1px solid #DDDDDD;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}			                                                      
+
+table.table td a {
+    font-weight: bold;
+    color: #566787;
+    display: inline-block;
+    text-decoration: none;
+}
+table.table td a:hover {
+    /* color: #2196F3; */
+    color: #f38721;
+
+}
+
+table.table td a i {
+    /* font-weight: bold; */
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.emptyList{
+    color: slategray !important;
+}
+
+.notification-shadow{
+    /* box-shadow: 0 8px 6px -9px rgb(138, 138, 138); */
+    padding-bottom: 5px;
+}
+
+/* #demo{
+    display:block;
+    margin:20px auto;
+    padding:10px 30px;
+    background-color:#eee;
+    border:solid #ccc 1px;
+    cursor: pointer;
+  } */
+  #overlay{	
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+    width: 100%;
+    height:100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+  }
+  .cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  .spinner {
+    width: 80px;
+    height: 80px;
+    border: 4px #ddd solid;
+    /* border-top: 4px #2e93e6 solid; */
+    border-top: 8px orangered;
+    border-bottom: 8px #0c2646;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+  }
+  @keyframes sp-anime {
+    100% { 
+      transform: rotate(360deg); 
+    }
+  }
+  .is-hide{
+    display:none;
+  }

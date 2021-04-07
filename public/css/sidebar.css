@@ -1,0 +1,4 @@
+.sidebar .nav li.active>a, .sidebar .nav li.active>a>i, .off-canvas-sidebar .nav li.active>a {
+    color: #f96332;
+}
+/* .sidebar .nav li>a, .off-canvas-sidebar .nav li>a */
